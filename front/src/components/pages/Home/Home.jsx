@@ -1,11 +1,11 @@
-import Header from './../../common/Header/Header';
+import Header from "../../common/Header/Header";
+import Layout from "../../common/Layout";
 
 const Home = () => {
-    return(
-        <div>
+    return(      
+          <Layout>
             <Header />
-            <div>Home page</div>
-        </div>
+          </Layout>
     )
 }
 
