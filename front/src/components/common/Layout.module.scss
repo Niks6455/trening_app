@@ -1,11 +1,12 @@
 .wrapper{
     padding: 30px;
     margin: 0;
-    color: #fff;
-    position: relative;
     height: 700px;
-    width: 390px;
-    overflow:hidden;
-overflow-y:hidden;  /*для вертикального*/
-overflow-x:hidden;  /*для горизонтального*/
+    width: 100%;
+    max-width: 390px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
 }

@@ -53,7 +53,6 @@ body {
 body {
 	font-size: 16px;
 	position: relative;
-	line-height: 1.65;
 	font-family: $default-font;
 	overflow-x: hidden;
 	opacity: 1;
@@ -70,5 +69,5 @@ img {
 }
 
 #root {
-	height: 700px;
+	height: 100%;
 }
