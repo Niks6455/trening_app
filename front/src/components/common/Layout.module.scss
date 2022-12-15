@@ -1,12 +1,11 @@
-
-
 .wrapper{
-    display: flex;
-    justify-content: space-between;
-    text-decoration: column;
-  
-	padding: 30px;
-	margin: 0;
-	color: #fff;
-   width: 100%;
+    padding: 30px;
+    margin: 0;
+    color: #fff;
+    position: relative;
+    height: 700px;
+    width: 390px;
+    overflow:hidden;
+overflow-y:hidden;  /*для вертикального*/
+overflow-x:hidden;  /*для горизонтального*/
 }

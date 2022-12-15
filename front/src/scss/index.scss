@@ -5,7 +5,8 @@ body {
 	padding: 0;
 	margin: 0;
 	color: #fff;
-  
+	width: 390px;
+	height: 700px;
 }
 
 * {
@@ -46,12 +47,11 @@ body {
 
 html,
 body {
-	height: 100%;
+	height: 700px;
 }
 
 body {
 	font-size: 16px;
-	min-width: 320px;
 	position: relative;
 	line-height: 1.65;
 	font-family: $default-font;
@@ -70,5 +70,5 @@ img {
 }
 
 #root {
-	height: 100%;
+	height: 700px;
 }

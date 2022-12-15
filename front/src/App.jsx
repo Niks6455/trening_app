@@ -1,12 +1,13 @@
 import React from "react";
-import Home from "./components/pages/Home/Home";
+import Layout from "./components/common/Layout";
+import Home from "./components/pages/Home/Home.jsx";
 
 
 const App = () => {
     return(
-        <div>
+        <Layout>
             <Home />
-        </div>
+        </Layout>
     )
 }
 

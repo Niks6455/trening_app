@@ -1,0 +1,28 @@
+@import './../../../scss/_varebles.scss';
+
+$accent-04: rgba($accent, .4);
+
+button{
+  
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 11px 46px;
+    transition: background-color .2s ease;
+    border-color: $accent-04;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 15px;
+
+    &hover{
+        border-color: rgba($accent, .7)
+    }
+    &.main{
+        background-color: rgba(255, 255, 255, .2);
+       
+        &:hover{
+            background-color: $accent-04;
+        }
+    }
+}
