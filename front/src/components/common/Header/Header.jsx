@@ -1,26 +1,22 @@
 import React from 'react';
-import styles from './Header.modules.scss';
+import './Header.modules.scss';
 
 import userImage from './../../images/header/user.svg';
-import hamburgerImage from './../../images/header/hamburger.svg';
-import { Link } from 'react-router-dom';
+import Hamburger from './Hamburger/Hamburger.jsx'
 
 const Header = () =>{
     return (
 
-        <header className={styles.header}>
+        <header className='header'>
 
-        <Link to="/">
+        
             <button type='button'> 
                 <img src={userImage} alt='Auth'></img>
             </button>
-        </Link>
+        
 
-        <Link to="/About">
-            <button type='button'>
-                <img src={hamburgerImage} alt='Auth'></img>
-             </button>
-        </Link>
+            <Hamburger />
+        
         </header>
         
     )

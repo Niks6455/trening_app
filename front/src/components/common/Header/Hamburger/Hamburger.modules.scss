@@ -1,0 +1,45 @@
+@import './../../../../scss/varebles';
+@import './../../../../scss/_animations';
+
+.wrapper{
+    position: relative;
+    
+    .menu{
+        position: absolute;
+        top: calc(100% + 10px);
+        right: 0;
+        background-color: #ffffff;
+        color: black;
+        padding: 10px 12px;
+        font-size: 14px;
+        box-shadow: $bx-16;
+        border-radius: 10px 0px 10px 10px;
+        min-width: 110px;
+        display: none;
+        animation: opacity 0.4s;
+        &.show{
+            display: block;
+        }
+        ul{
+            list-style: none;
+            a{
+                color: #000;
+                text-decoration: none;
+                transition: color 0.2s ease;
+                cursor: pointer;
+                &:hover, &.active{
+                    color: $accent;
+                    margin: 4px 0;
+                }
+            }
+           
+        }
+       
+
+    }
+}
+
+img{
+    width: 29px;
+    height: 29px; 
+ }

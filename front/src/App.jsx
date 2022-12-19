@@ -1,9 +1,7 @@
 import React from "react";
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from "./components/pages/Home/Home.jsx";
-import About from "./components/pages/about/About.jsx";
-import Header from "./components/common/Header/Header.jsx";
-import Layout from "./components/common/Layout.jsx";
+import NewWorkout from "./components/pages/NewWorkout/NewWorkout.jsx";
 
 
 const App = () => {
@@ -14,7 +12,7 @@ const App = () => {
      
         <Routes> 
           <Route path='/' element={<Home />}/>
-          <Route path='/about' element={<About />}/>
+          <Route path='/NewWorkout' element={<NewWorkout />}/>
         </Routes>
     
    </BrowserRouter>
