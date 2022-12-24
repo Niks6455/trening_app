@@ -1,3 +1,5 @@
+@import './../../scss/varebles.scss';
+
 .wrapper{
     padding: 30px;
     margin: 0;
@@ -7,9 +9,17 @@
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.9;
+   height: 100%;
 }
 .text{
     position: relative;
-    top: 235px;
     right: 15px;
+    text-transform: uppercase;
+    font-style: 22px;
+
 }
+ .otherPage{
+        border-radius: 0 0 20px 20px ;
+        box-shadow: $bx-accent;
+        height: 330px;
+    }

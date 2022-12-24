@@ -19,6 +19,8 @@ const Header = () =>{
     return (
 
         <header className='header'>
+        
+        
             {location.pathname != '/' ? (
                 <button type='button' onClick={handleClick}> 
                     <img src={arrowImage} alt='back'></img>
@@ -31,7 +33,9 @@ const Header = () =>{
             )}
 
             <Hamburger />
-        
+            
+            
+               
         </header>
         
     )

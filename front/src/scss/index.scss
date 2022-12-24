@@ -1,4 +1,4 @@
-@import './_varebles';
+@import './_varebles.scss';
 
 body {
 	background-color: $black;
@@ -71,4 +71,20 @@ img {
 #root {
 	height: 100%;
 	max-width: 100%;
+}
+
+.css-13cymwt-control, .select2-selection__control--is-focused{
+	background-color:  #511734  !important;
+	color: #fff !important;
+	border: 1px solid transparent !important;
+	border-color:  #511734  !important;
+	border-radius: 10px !important;
+	height: 46px;
+}
+.select2-selection__single-value{
+	color: #fff !important;
+}
+.select2-selection__menu{
+	background-color: #511734 !important;
+	color: #946e86 !important;
 }

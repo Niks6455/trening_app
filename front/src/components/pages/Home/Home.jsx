@@ -4,10 +4,11 @@ import Counters from './../../ui/Counters/Counters';
 import bgImage from './../../images/i.jpg';
 import './Home.modules.scss';
 
+
 const Home = () => {
     return(    
         
-        <Layout height ='100%' bgImage={bgImage}>
+        <Layout bgImage={bgImage}>
             <div className="position">
                 <Button text='New' type='main' callback ={() => {}} />
                 <h1 className='heading'>EXERCISES FOR THE SHOULDERS</h1>
